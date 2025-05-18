@@ -13,3 +13,6 @@ function getRandomColor() {
 button.addEventListener('click', () => {
     document.body.style.backgroundColor = getRandomColor();
 });
+
+// Mensaje de consola para la rama main
+console.log("Rama por defecto");
